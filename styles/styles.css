@@ -1,0 +1,48 @@
+
+body{
+  text-align: center; background-color: rgb(255, 238, 7);
+  box-sizing: border-box;
+}
+
+p {
+  color: rgb(255, 255, 255);
+}
+a{color: white;}
+
+.titulo1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+  font-size:100px;
+    color: white;
+  margin: 0 auto;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 10px 10px 0 #000;
+}
+a{color: rgb(0, 0, 0);}
+.titulo2
+
+span {
+  background-color: rgb(253, 193, 27);
+}
+
+.subtitulo p{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+  font-size:25px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 3px 3px 0 #000;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+nav a{
+  width: 600px;
+  background-color: #ffffff00; /*esto es un comentario*/
+  padding: 0 20px 20px 20px;
+  border-left: 10px;
+
+}
+
+@media (min-width: 400px) {
+  .facet_sidebar {
+    display: all;
+  }
+}
