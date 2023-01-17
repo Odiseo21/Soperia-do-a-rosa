@@ -9,7 +9,7 @@ p {
 }
 a{color: white;}
 
-.titulo1{
+.titulo1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-style: oblique;
   font-size:100px;
@@ -55,7 +55,40 @@ form{
   display: block;
 }
 
-img form{
+img form {
   align-items: center;
   box-sizing: content-box;
+}
+.form-floating {
+  display: flex;
+  flex-wrap: wrap;
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .form-floating{
+    width: 100%;
+    padding-left: 23px;
+    flex-direction: column-reverse;
+  }
+}
+
+button{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: relative;
+  justify-content: center
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .butt{
+    width: 100%;
+    padding-left: 23px;
+    flex-direction: column-reverse;
+  }
 }
