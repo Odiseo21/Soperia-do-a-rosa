@@ -46,3 +46,16 @@ nav a{
     display: all;
   }
 }
+
+nav a{
+  display:flexbox;
+}
+
+form{
+  display: block;
+}
+
+img form{
+  align-items: center;
+  box-sizing: content-box;
+}
