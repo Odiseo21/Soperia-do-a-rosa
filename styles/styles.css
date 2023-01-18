@@ -96,3 +96,11 @@ button{
 li{
   text-align: justify;
 }
+
+.table{
+  box-sizing: border-box;
+  background-color: white;
+  justify-content: center;
+  width: 75%;
+  top: 0; bottom: 0; margin: auto;
+}
